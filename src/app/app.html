@@ -1,3 +1,4 @@
+@if (!isQuotePage) {
 <div class="nx-hero">
   <div class="nx-hero-card">
     <h2 class="nx-title">NexMove</h2>
@@ -8,7 +9,7 @@
     <div class="nx-cta-buttons">
       <button class="nx-btn" (click)="openSales()">Contact Details</button>
       <a href="tel:+97470384684" class="nx-btn call-btn">Call Now</a>
-      <button class="nx-btn quote-btn">Get Quote</button>
+      <button class="nx-btn quote-btn" (click)="navigateToGetQuote()">Get Quote</button>
     </div>
   </div>
 </div>
@@ -24,6 +25,8 @@
 </div>
 
 <footer class="nx-footer">
-  NexMove Logistics and Trading Services — AI Muntazah Trading Center Zone 24, 
-  Street 830, Building No. 16, Doha - Qatar - 2025
+  NexMove Logistics and Trading Services — AI Muntazah Trading Center Zone 24, Street 830, Building
+  No. 16, Doha - Qatar - 2025
 </footer>
+}
+<router-outlet></router-outlet>
