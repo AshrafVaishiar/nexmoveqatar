@@ -1,6 +1,6 @@
 <div class="quote-page">
     <div class="get-quote-form-container">
-      <h2>Get a Quote</h2>
+      <h2>Get a Quote - Note: This Page Work is in progress - !!!</h2>
   
       <form [formGroup]="quoteForm" (ngSubmit)="submitQuote()">
         <div class="form-group">
@@ -28,7 +28,7 @@
           <textarea rows="5" formControlName="message"></textarea>
         </div>
   
-        <button type="submit" class="quote-submit-btn" [disabled]="quoteForm.invalid">
+        <button type="submit" class="quote-submit-btn btn btn-disabled" [disabled]="quoteForm.invalid">
           Submit Quote Request
         </button>
       </form>
