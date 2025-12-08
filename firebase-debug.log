@@ -1,0 +1,118 @@
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-12-03T14:43:40.391Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-12-03T14:43:40.394Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-12-08T03:21:53.168Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-12-08T03:21:53.171Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-12-08T03:22:03.079Z] Running auto auth
+[debug] [2025-12-08T03:22:03.080Z] Running auto auth
+[debug] [2025-12-08T03:22:03.139Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.142Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.144Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.146Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.149Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.150Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.167Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.168Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.170Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firestore.googleapis.com [none]
+[debug] [2025-12-08T03:22:03.171Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firestore.googleapis.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.197Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/storage.googleapis.com [none]
+[debug] [2025-12-08T03:22:03.197Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/storage.googleapis.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.199Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-12-08T03:22:03.199Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.201Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/identitytoolkit.googleapis.com [none]
+[debug] [2025-12-08T03:22:03.201Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.203Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/fcm.googleapis.com [none]
+[debug] [2025-12-08T03:22:03.203Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/fcm.googleapis.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.205Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2025-12-08T03:22:03.205Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.207Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-12-08T03:22:03.207Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.209Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseio.com [none]
+[debug] [2025-12-08T03:22:03.209Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseio.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.237Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.238Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.238Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.239Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.239Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.240Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.244Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.246Z] No OAuth tokens found
+[debug] [2025-12-08T03:22:03.246Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firestore.googleapis.com [none]
+[debug] [2025-12-08T03:22:03.246Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firestore.googleapis.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.249Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/storage.googleapis.com [none]
+[debug] [2025-12-08T03:22:03.249Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/storage.googleapis.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.252Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-12-08T03:22:03.252Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.258Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/identitytoolkit.googleapis.com [none]
+[debug] [2025-12-08T03:22:03.259Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.261Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/fcm.googleapis.com [none]
+[debug] [2025-12-08T03:22:03.261Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/fcm.googleapis.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.264Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2025-12-08T03:22:03.264Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.266Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-12-08T03:22:03.266Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:03.268Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseio.com [none]
+[debug] [2025-12-08T03:22:03.268Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseio.com x-goog-quota-user=projects/nexmoveqatar-30454077-965ba
+[debug] [2025-12-08T03:22:04.269Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseio.com 403
+[debug] [2025-12-08T03:22:04.269Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseio.com [omitted]
+[debug] [2025-12-08T03:22:04.297Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firestore.googleapis.com 200
+[debug] [2025-12-08T03:22:04.297Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firestore.googleapis.com [omitted]
+[debug] [2025-12-08T03:22:04.302Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-12-08T03:22:04.302Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-12-08T03:22:04.308Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-12-08T03:22:04.308Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-12-08T03:22:04.325Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/fcm.googleapis.com 200
+[debug] [2025-12-08T03:22:04.325Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/fcm.googleapis.com [omitted]
+[debug] [2025-12-08T03:22:04.343Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/fcm.googleapis.com 200
+[debug] [2025-12-08T03:22:04.344Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/fcm.googleapis.com [omitted]
+[debug] [2025-12-08T03:22:04.359Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/storage.googleapis.com 200
+[debug] [2025-12-08T03:22:04.359Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/storage.googleapis.com [omitted]
+[debug] [2025-12-08T03:22:04.373Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-12-08T03:22:04.373Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-12-08T03:22:04.377Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/storage.googleapis.com 200
+[debug] [2025-12-08T03:22:04.377Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/storage.googleapis.com [omitted]
+[debug] [2025-12-08T03:22:04.384Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseio.com 403
+[debug] [2025-12-08T03:22:04.386Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseio.com [omitted]
+[debug] [2025-12-08T03:22:04.389Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/identitytoolkit.googleapis.com 200
+[debug] [2025-12-08T03:22:04.389Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2025-12-08T03:22:04.398Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2025-12-08T03:22:04.398Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2025-12-08T03:22:04.415Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-12-08T03:22:04.415Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-12-08T03:22:04.420Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/identitytoolkit.googleapis.com 200
+[debug] [2025-12-08T03:22:04.421Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2025-12-08T03:22:04.432Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2025-12-08T03:22:04.432Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firebaseremoteconfig.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-12-08T03:22:04.445Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-12-08T03:22:04.446Z] > authorizing via signed-in user (ashrafyshiar@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-12-08T03:22:04.448Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-12-08T03:22:04.448Z] > authorizing via signed-in user (ashrafyshiar@gmail.com)
+[debug] [2025-12-08T03:22:04.451Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firestore.googleapis.com 200
+[debug] [2025-12-08T03:22:04.451Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/nexmoveqatar-30454077-965ba/services/firestore.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-12-08T03:22:04.474Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-12-08T03:22:04.474Z] > authorizing via signed-in user (ashrafyshiar@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-12-08T03:22:04.478Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-12-08T03:22:04.478Z] > authorizing via signed-in user (ashrafyshiar@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-12-08T03:22:04.485Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-12-08T03:22:04.485Z] > authorizing via signed-in user (ashrafyshiar@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-12-08T03:22:04.487Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-12-08T03:22:04.487Z] > authorizing via signed-in user (ashrafyshiar@gmail.com)

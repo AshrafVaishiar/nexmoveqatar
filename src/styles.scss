@@ -191,7 +191,7 @@ $shadow-soft: 0 10px 40px rgba(0, 0, 0, 0.25);
 .quote-btn {
   background: linear-gradient(135deg, #5e0c2e, #8a1542);
   color: #fff;
-
+  border: 1px solid #d8b36a;
   &:hover {
     filter: brightness(1.2);
     transform: translateY(-3px);
@@ -215,4 +215,13 @@ $shadow-soft: 0 10px 40px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(14px);
   letter-spacing: 0.3px;
   box-shadow: 0 -12px 40px rgba(0, 0, 0, 0.45);
+}
+.page {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(255, 215, 130, 0.10), transparent 70%),
+    radial-gradient(circle at bottom right, rgba(94, 12, 46, 0.3), transparent 70%),
+    #0d0d0d;
 }
