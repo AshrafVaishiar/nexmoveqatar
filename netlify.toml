@@ -1,12 +1,15 @@
 [build]
-command = "ng build"
-publish = "dist/myapp"
+  command = "ng build"
+  publish = "dist/myapp"
+
+[build.processing]
+  skip_processing = true
 
 [build.environment]
   NETLIFY_SKIP_FRAMEWORKS = "true"
+  NETLIFY_EXPERIMENTAL_BUILD_FRAMEWORK = "none"
 
-# Angular SPA routing support
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
