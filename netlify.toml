@@ -2,6 +2,9 @@
 command = "ng build"
 publish = "dist/myapp"
 
+[build.environment]
+  NETLIFY_SKIP_FRAMEWORKS = "true"
+
 # Angular SPA routing support
 [[redirects]]
 from = "/*"
