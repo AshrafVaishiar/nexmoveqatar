@@ -1,0 +1,9 @@
+[build]
+command = "ng build"
+publish = "dist/myapp"
+
+# Angular SPA routing support
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
