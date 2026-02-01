@@ -8,10 +8,21 @@ import { ReactiveFormsModule } from '@angular/forms';
   selector: 'app-get-quote',
   templateUrl: './get-quote.component.html',
   styleUrls: ['./get-quote.component.scss'],
-  imports: [CommonModule, ReactiveFormsModule]
+  imports: [CommonModule, ReactiveFormsModule],
 })
 export class GetQuote implements OnInit {
   quoteForm!: FormGroup;
+  submitted = false;
+
+  private formUrl =
+    'https://docs.google.com/forms/d/e/1FAIpQLSeYKEl1qB8PBR5OzPKFMz92oTjnTJ9BpIdGu87qM7-wcImjdg/formResponse';
+  private entryIds = {
+    name: 'entry.35225743',
+    email: 'entry.548359031',
+    phone: 'entry.1316178333',
+    serviceType: 'entry.1586556633',
+    message: 'entry.227675419',
+  };
 
   constructor(private fb: FormBuilder) {}
 
@@ -19,14 +30,36 @@ export class GetQuote implements OnInit {
     this.quoteForm = this.fb.group({
       name: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
-      phone: ['', Validators.pattern(/^\d{10}$/)],
-      serviceType: ['', Validators.required],
+      phone: ['', Validators.required],
+      serviceType: [''],
       message: [''],
     });
   }
 
   submitQuote() {
-    if (this.quoteForm.invalid) return;
+    console.log('submit clicked', this.quoteForm);
+    debugger;
+
     console.log('Quote Request:', this.quoteForm.value);
+
+    if (this.quoteForm.invalid) return;
+
+    const formData = new URLSearchParams();
+    formData.set(this.entryIds.name, this.quoteForm.value.name);
+    formData.set(this.entryIds.email, this.quoteForm.value.email);
+    formData.set(this.entryIds.phone, this.quoteForm.value.phone);
+    formData.set(this.entryIds.serviceType, this.quoteForm.value.serviceType);
+    formData.set(this.entryIds.message, this.quoteForm.value.message);
+
+    fetch(this.formUrl, {
+      method: 'POST',
+      mode: 'no-cors',
+      body: formData
+    }).then(() => {
+      this.submitted = true;
+      this.quoteForm.reset();
+    }).catch(err => {
+      console.error('Google Form submission error', err);
+    });
   }
 }

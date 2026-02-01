@@ -1,37 +1,42 @@
 <div class="quote-page">
-    <div class="get-quote-form-container">
-      <h2>Get a Quote - Note: This Page Work is in progress - !!!</h2>
-  
-      <form [formGroup]="quoteForm" (ngSubmit)="submitQuote()">
-        <div class="form-group">
-          <label>Name:</label>
-          <input type="text" formControlName="name" />
-        </div>
-  
-        <div class="form-group">
-          <label>Email:</label>
-          <input type="email" formControlName="email" />
-        </div>
-  
-        <div class="form-group">
-          <label>Phone (optional):</label>
-          <input type="tel" formControlName="phone" />
-        </div>
-  
-        <div class="form-group">
-          <label>Service Type:</label>
-          <input type="text" formControlName="serviceType" />
-        </div>
-  
-        <div class="form-group">
-          <label>Message / Details:</label>
-          <textarea rows="5" formControlName="message"></textarea>
-        </div>
-  
-        <button type="submit" class="quote-submit-btn btn btn-disabled" [disabled]="quoteForm.invalid">
-          Submit Quote Request
-        </button>
-      </form>
-    </div>
+  <div class="get-quote-form-container">
+    <h2>Get a Quote</h2>
+
+    <form [formGroup]="quoteForm">
+      <div class="form-group">
+        <label>Name:</label>
+        <input type="text" formControlName="name" placeholder="Your Name" />
+      </div>
+
+      <div class="form-group">
+        <label>Email:</label>
+        <input type="email" formControlName="email" placeholder="Your Email" />
+      </div>
+
+      <div class="form-group">
+        <label>Phone:</label>
+        <input type="tel" formControlName="phone" placeholder="Your Phone Number" />
+      </div>
+
+      <div class="form-group">
+        <label>Service Type (optional):</label>
+        <input type="text" formControlName="serviceType" />
+      </div>
+
+      <div class="form-group">
+        <label>Message / Details (optional):</label>
+        <textarea rows="5" formControlName="message"></textarea>
+      </div>
+
+      <button
+        class="quote-submit-btn"
+        (click)="submitQuote()"
+        type="button"
+        [disabled]="quoteForm.invalid"
+        [ngClass]="{ 'btn btn-disabled': quoteForm.invalid }"
+      >
+        Submit Quote Request
+      </button>
+    </form>
   </div>
-  
+</div>
