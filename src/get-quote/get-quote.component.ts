@@ -1,18 +1,20 @@
-import { Component, OnInit } from '@angular/core';
-import { FormGroup, Validators } from '@angular/forms';
-import { FormBuilder } from '@angular/forms';
+import { Component, inject } from '@angular/core';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-get-quote',
   templateUrl: './get-quote.component.html',
   styleUrls: ['./get-quote.component.scss'],
   imports: [CommonModule, ReactiveFormsModule],
-})
-export class GetQuote implements OnInit {
+  })
+export class GetQuote {
   quoteForm!: FormGroup;
   submitted = false;
+
+  private router = inject(Router);
+  private fb = inject(FormBuilder);
 
   private formUrl =
     'https://docs.google.com/forms/d/e/1FAIpQLSeYKEl1qB8PBR5OzPKFMz92oTjnTJ9BpIdGu87qM7-wcImjdg/formResponse';
@@ -24,9 +26,7 @@ export class GetQuote implements OnInit {
     message: 'entry.227675419',
   };
 
-  constructor(private fb: FormBuilder) {}
-
-  ngOnInit(): void {
+  constructor() {
     this.quoteForm = this.fb.group({
       name: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
@@ -37,11 +37,6 @@ export class GetQuote implements OnInit {
   }
 
   submitQuote() {
-    console.log('submit clicked', this.quoteForm);
-    debugger;
-
-    console.log('Quote Request:', this.quoteForm.value);
-
     if (this.quoteForm.invalid) return;
 
     const formData = new URLSearchParams();
@@ -54,12 +49,15 @@ export class GetQuote implements OnInit {
     fetch(this.formUrl, {
       method: 'POST',
       mode: 'no-cors',
-      body: formData
-    }).then(() => {
-      this.submitted = true;
-      this.quoteForm.reset();
-    }).catch(err => {
-      console.error('Google Form submission error', err);
-    });
+      body: formData,
+    })
+      .then(() => {
+        this.submitted = true;
+        this.quoteForm.reset();
+        this.router.navigate(['/success']);
+      })
+      .catch((err) => {
+        console.error('Google Form submission error', err);
+      });
   }
 }

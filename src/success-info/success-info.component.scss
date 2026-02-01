@@ -1,0 +1,60 @@
+@use '../styles.scss' as *;
+
+.nx-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+  background: 
+    radial-gradient(circle at top left, rgba(216, 179, 106, 0.12), transparent 60%),
+    radial-gradient(circle at bottom right, rgba(94, 12, 46, 0.25), transparent 60%),
+    #0d0d0d;
+}
+
+.nx-success-card {
+  @include glass-lux;
+  padding: 50px 45px;
+  max-width: 550px;
+  width: 100%;
+  text-align: center;
+  border-radius: 28px; 
+  animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.nx-success-icon {
+  margin-bottom: 25px;
+  svg {
+    filter: drop-shadow(0 4px 12px rgba(216, 179, 106, 0.5));
+  }
+}
+
+.nx-success-title {
+  font-family: $font-arabic;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: $gold;
+  margin: 0 0 15px;
+  letter-spacing: 0.5px;
+}
+
+.nx-success-subtitle {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #ffffffde;
+  opacity: 0.9;
+  line-height: 1.6;
+  margin: 0 auto 30px;
+  max-width: 90%;
+}
+
+.nx-btn {
+  padding: 15px 38px;
+  font-size: 1.2rem;
+  // Inherits the rest of the styles from the global .nx-btn
+}
